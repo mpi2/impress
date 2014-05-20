@@ -26,7 +26,7 @@ $config['deletedpdfpath'] = APPPATH . 'views/deletedpdfs/';
 $config['importxmlpath'] = FCPATH . 'assets/xmlfiles/';
 
 //the URL where the latest MP OBO file is downloaded from and what it will be called when saved in the cache directory
-$config['mpurl'] = 'https://phenotype-ontologies.googlecode.com/svn/trunk/src/ontology/mp.obo';
+$config['mpurl'] = 'http://www.berkeleybop.org/ontologies/mp.obo'; //'https://phenotype-ontologies.googlecode.com/svn/trunk/src/ontology/mp.obo';
 $config['mpfile'] = 'mp.obo';
 $config['mpfilerefreshinterval'] = 60*60*24*7; //download new file at least every 7 days
 
