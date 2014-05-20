@@ -31,9 +31,10 @@ System Requirements
         - Xmlrpc
         - Xsl
         - Openssl
+        - Zip
 * Database: Tested on MySQL 5.5 but probably works with 5.0.15+
 * Web server: Apache 2.2+ with url_rewrite enabled (should work with other servers if properly configured)
-* Disk space: ~500MB for IMPReSS and internal dependencies + 30MB for Drupal 7 dependency
+* Disk space: ~500MB for IMPReSS and dependencies
 
 
 Installation
