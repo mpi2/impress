@@ -1,0 +1,20 @@
+{
+    "name": "mpi2/impress",
+    "description": "IMPReSS: International Mouse Phenotyping Resource of Standardized Screens",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.3.5"
+    },
+    "autoload": {
+        "classmap": [
+            "application/libraries/",
+            "application/third_party/tcpdf/"
+        ]
+    },
+    "require": {
+        "phpobo/phpobo": "dev-master",
+        "phpoffice/phpexcel": "dev-develop_1.7.9",
+        "mpdf/mpdf": "v6.0-beta"
+    }
+}

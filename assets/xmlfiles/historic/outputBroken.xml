@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure name="IMPC Parameters IPGTT2">
+  <parameter>
+    <parametername>Body Weight</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit>g</unit>
+    <datatype>Float</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>No</annotation>
+    <graphtype>1D</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>INCREASED</selectionoutcome>
+        <mpid></mpid>
+        <mpterm>MP:0001260</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0001262</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0001259</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Blood glucose concentration</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype>Time Point</incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit>mmol/L</unit>
+    <datatype>Float</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>2D</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex></sex>
+        <selectionoutcome>INCREASED</selectionoutcome>
+        <mpid></mpid>
+        <mpterm>MP:0005559</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex></sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0005560</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0000188</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>0</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>0</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>15</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>15</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>30</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>30</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>60</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>60</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>120</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment>120</increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Equipment name</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Equipment manufacturer</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Grid model</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Mouse restrained</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype></datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation></annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>yes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>no</option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>no</option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Type of strip</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype></datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia></imagemedia>
+    <annotation></annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>whole blood glucose concentration</optionsvalue>
+        <optionsdescription>Old strip</optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>plasma glucose concentration estimated from whole blood</option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>plasma glucose concentration estimated from whole blood</option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option></option>
+        <increment></increment>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm></mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Glucose response AUC</parametername>
+    <parametertype>Derived</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit>minutes/mmol/L</unit>
+    <datatype>Float</datatype>
+    <requiredforupload></requiredforupload>
+    <requiredfordataanalysis></requiredfordataanalysis>
+    <derivedformula>area_under_curve(Blood glucose concentration)</derivedformula>
+    <imagemedia></imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>INCREASED</selectionoutcome>
+        <mpid></mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>DECREASED</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option/>
+        <increment/>
+        <sex>Find an Ontology Term</sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>Find an Ontology Term</mpid>
+        <mpterm>MP:0002078</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+</procedure>

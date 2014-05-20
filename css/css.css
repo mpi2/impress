@@ -1,0 +1,168 @@
+/*
+ *
+ * Copyright 2014 Medical Research Council Harwell.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#FFF;
+	text-align:center;
+	width:100%;
+	height:100%;
+	font-family:Corbel, 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+}
+
+p{
+	margin:5px 0 10px 0;
+}
+
+#container{
+	text-align:left;
+	width:1000px;
+	margin:0 auto;
+}
+
+#header{
+	display:block;
+	width:100%;
+	height:100px;
+	border:1px dotted #000;
+	overflow:hidden;
+}
+#header h1{
+	font-family:Arial, sans-serif;
+}
+#header h1 a{
+	text-decoration:none;
+	color:#000;
+}
+#header #loginbox{
+	top:0;
+	background-color:#000;
+	float:right;
+	position:relative;
+	margin-right:1cm;
+	color:#FFF;
+	height:20px;
+	font-size:small;
+	padding:0 10px;
+}
+#header #loginbox a{
+	color:#FFF;
+	text-decoration:none;
+}
+#header #loginbox a:hover{
+	text-decoration:underline;
+}
+
+#nav{
+	border:1px dotted red;
+	text-align:right;
+	width:100%;
+}
+#nav li{
+	list-style-type:none;
+	display:inline;
+	padding:3px 5px 3px 20px;
+}
+#nav li a{
+	text-decoration:none;
+}
+#nav li a:hover{
+	text-decoration:underline;
+}
+
+#aside{
+	float:left;
+	width:225px;
+	border:1px dashed pink;
+	display:inline;
+	padding:1% .5% 1% 0;
+}
+#aside #accordion{
+	font:80% "Trebuchet MS", sans-serif;
+}
+
+#body, #footer{
+	width:755px; /*debug: adding padding increases size of box so have to make it smaller before padding it*/
+	display:inline;
+	border:1px dashed #0A0;
+	padding:3px 5px;
+	float:left;
+	overflow:auto;
+}
+
+#footer{
+	text-align:center;
+	border:1px dotted #00A;
+	font-size:small;
+	display:block;
+	width:99%;
+	clear:both;
+}
+#footer span#strikethrough{
+	display:inline;
+	position:relative;
+	left:8px;
+	top:-1px;
+	font-style:italic;
+}
+
+div.ui-accordion h3.ui-accordion-header a{
+	color:blue;
+	font-weight:300;
+}
+
+ul.tree li{
+    font-weight:bold;
+    list-style:none outside none;
+    margin-left:1%;
+}
+ul.tree li ul.FileTree{
+    font-size:95%;
+    margin-left:2%;
+}
+ul.tree li ul.FileTree a{
+    text-decoration:none;
+}
+ul.tree li ul.FileTree a:hover{
+    text-decoration:underline;
+}
+ul.tree li ul.FileTree ul.subtree{
+    font-size:90%;
+    margin-left:3%;
+}
+ul.tree li ul.FileTree ul.subtree li:before{
+    content:' - ';
+}
+
+span.multi{
+	display:block;
+}
+span.multi:nth-child(even){
+	background-color:#EEE;
+}
+
+label:after{
+	content:': ';
+}
+label.required:after{
+	content:'*: ';
+}

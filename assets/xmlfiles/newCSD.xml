@@ -1,0 +1,3163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure name="newCSD">
+  <parameter>
+    <parametername>Tail presence</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Tail length</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Long</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Short</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Tail thickness</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Tail morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color - back</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>White</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Chinchilla</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Agouti</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Grey</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Other</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color - head</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>White</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Chinchilla</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Agouti</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Grey</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Other</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color - abdomen</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>White</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Chinchilla</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Agouti</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Grey</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Other</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color pattern - back</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patch of different color</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Mottled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Speckled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color pattern - head</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patch of different color</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Mottled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Speckled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - color pattern - abdomen</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Belly spot</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patch of different color</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Mottled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Speckled</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair distribution - back</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Bald</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patches of baldness</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Thinning</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair distribution - head</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Bald</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patches of baldness</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Thinning</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair distribution - abdomen</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Bald</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Patches of baldness</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Thinning</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair texture / appearance - back</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair texture / appearance - head</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Coat - hair texture / appearance - abdomen</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimbs - position</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimbs - shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimbs - size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimbs - position</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimbs - shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimbs - size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb only - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Vibrissae - presence</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Vibrissae - appearance</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Head size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Head morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Ears</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Snout size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Activity (body position)</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Increased activity</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Inactive</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Tremor</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Viewing jar</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Transfer arousal</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Immediate movement</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Extended freeze</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Locomotor activity</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit>squares crossed</unit>
+    <datatype>Integer</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Gait</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Fluid movement</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Lack of fluidity in movement</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Tail elevation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Straub / elevated tail</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Dragging</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Touch escape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>No response</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Response to touch</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Flees prior to touch</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Startle response</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>None</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Unexpected behaviors</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>None</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Circling</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Jumping</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Retropulsion</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Trunk curl</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Limb grasp</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forepaw size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forepaw increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forepaw decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forepaws increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forepaws decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindpaw size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindpaw increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindpaw decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindpaws increased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindpaws decreased</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forepaw shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forepaw not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forepaws not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindpaw shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindpaw not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindpaws not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb digit number</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb digit number</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb digit size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb - increased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb - decreased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb - fused</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - increased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - decreased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs - fused</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb digit size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb - increased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb - decreased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb - fused</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs - increased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs - decreased size</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs - fused</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb digit shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb digit shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb nail number</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb nail number</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs increased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs decreased number</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb nail length</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb increased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb decreased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs increased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs decreased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb nail length</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb increased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb decreased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs increased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs decreased length</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Forelimb nail shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One forelimb not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both forelimbs not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>hindlimb nail shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>One hindlimb not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Both hindlimbs not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - whole body</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - snout</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - ear</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - front paws</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - back paws</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin color - tail</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - whole body</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - snout</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - ear</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - front paws</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - back paws</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Skin texture - tail</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Teeth presence</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Upper teeth appearance</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Lower teeth appearance</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Genitalia presence</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Genitalia size</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Genitalia morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Mouth morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Upper lip morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Lower lip morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Contact righting</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>No data</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Vocalization</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Not as expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Aggression</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>As expected</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Excessive aggression</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Head bobbing</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>Yes</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes>Arena</notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+</procedure>

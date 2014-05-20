@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<procedure name="eye">
+  <parameter>
+    <parametername>Eye</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Present</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>absent left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>absent right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>absent both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>absent left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>absent right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>absent both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Bulging eye</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002750</mpid>
+        <mpterm>exophthalmos</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Eye Hemorrhage or Blood Presence</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006203</mpid>
+        <mpterm>eye hemorrhage</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006203</mpid>
+        <mpterm>eye hemorrhage</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006203</mpid>
+        <mpterm>eye hemorrhage</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Eyelid morphology</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001340</mpid>
+        <mpterm>abnormal eyelid morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001340</mpid>
+        <mpterm>abnormal eyelid morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001340</mpid>
+        <mpterm>abnormal eyelid morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Eyelid closure</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye closed</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye closed</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes closed</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye closed</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005176</mpid>
+        <mpterm>eyelids fail to open</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye closed</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005176</mpid>
+        <mpterm>eyelids fail to open</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes closed</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005176</mpid>
+        <mpterm>eyelids fail to open</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Narrow eye opening</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005287</mpid>
+        <mpterm>narrow eye opening</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005287</mpid>
+        <mpterm>narrow eye opening</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005287</mpid>
+        <mpterm>narrow eye opening</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Cornea</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001312</mpid>
+        <mpterm>abnormal cornea morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001312</mpid>
+        <mpterm>abnormal cornea morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001312</mpid>
+        <mpterm>abnormal cornea morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Corneal opacity</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001314</mpid>
+        <mpterm>corneal opacity</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001314</mpid>
+        <mpterm>corneal opacity</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001314</mpid>
+        <mpterm>corneal opacity</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Corneal vascularization</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005542</mpid>
+        <mpterm>corneal vascularization</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005542</mpid>
+        <mpterm>corneal vascularization</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005542</mpid>
+        <mpterm>corneal vascularization</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Iris/Pupil</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001322</mpid>
+        <mpterm>abnormal iris morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001322</mpid>
+        <mpterm>abnormal iris morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001322</mpid>
+        <mpterm>abnormal iris morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Pupil Position</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006241</mpid>
+        <mpterm>abnormal placement of pupils</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006241</mpid>
+        <mpterm>abnormal placement of pupils</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006241</mpid>
+        <mpterm>abnormal placement of pupils</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Pupil Shape</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001319</mpid>
+        <mpterm>irregularly shaped pupil</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001319</mpid>
+        <mpterm>irregularly shaped pupil</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001319</mpid>
+        <mpterm>irregularly shaped pupil</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Pupil Dilation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye dilated</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye dilated</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes dilated</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye dilated</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002546</mpid>
+        <mpterm>mydriasis</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye dilated</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002546</mpid>
+        <mpterm>mydriasis</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes dilated</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002546</mpid>
+        <mpterm>mydriasis</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Pupil Light Response</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye normal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006243</mpid>
+        <mpterm>impaired pupillary reflex</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye normal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006243</mpid>
+        <mpterm>impaired pupillary reflex</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0006243</mpid>
+        <mpterm>impaired pupillary reflex</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Iris Pigmentation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye normal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005102</mpid>
+        <mpterm>abnormal iris pigmentation</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005102</mpid>
+        <mpterm>abnormal iris pigmentation</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005102</mpid>
+        <mpterm>abnormal iris pigmentation</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Lens</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001303</mpid>
+        <mpterm>abnormal lens morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001303</mpid>
+        <mpterm>abnormal lens morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001303</mpid>
+        <mpterm>abnormal lens morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Lens Opacity</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001304</mpid>
+        <mpterm>cataracts</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001304</mpid>
+        <mpterm>cataracts</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001304</mpid>
+        <mpterm>cataracts</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Fusion between cornea and lens</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001307</mpid>
+        <mpterm>fused cornea and lens</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001307</mpid>
+        <mpterm>fused cornea and lens</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001307</mpid>
+        <mpterm>fused cornea and lens</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Synechia</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0004222</mpid>
+        <mpterm>iris synechia</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0004222</mpid>
+        <mpterm>iris synechia</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0004222</mpid>
+        <mpterm>iris synechia</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retina</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retinal Pigmentation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005103</mpid>
+        <mpterm>abnormal retinal pigmentation</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005103</mpid>
+        <mpterm>abnormal retinal pigmentation</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0005103</mpid>
+        <mpterm>abnormal retinal pigmentation</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retinal Structure</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001325</mpid>
+        <mpterm>abnormal retina morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Optic Disc</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0008259</mpid>
+        <mpterm>abnormal optic disc morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0008259</mpid>
+        <mpterm>abnormal optic disc morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0008259</mpid>
+        <mpterm>abnormal optic disc morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retinal Blood Vessels</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002792</mpid>
+        <mpterm>abnormal retinal vasculature morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002792</mpid>
+        <mpterm>abnormal retinal vasculature morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0002792</mpid>
+        <mpterm>abnormal retinal vasculature morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retinal Blood Vessels Structure</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Normal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010097</mpid>
+        <mpterm>abnormal retinal blood vessel morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010097</mpid>
+        <mpterm>abnormal retinal blood vessel morphology</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010097</mpid>
+        <mpterm>abnormal retinal blood vessel morphology</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Retinal Blood Vessels Pattern</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>left eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>right eye abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>both eyes abnormal</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>left eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010098</mpid>
+        <mpterm>abnormal retinal blood vessel pattern</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>right eye abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010098</mpid>
+        <mpterm>abnormal retinal blood vessel pattern</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>both eyes abnormal</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0010098</mpid>
+        <mpterm>abnormal retinal blood vessel pattern</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Persistence of hyaloid vascular system</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>Yes</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue>Absent</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>no data right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present left eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present right eye</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+      <optionsgroup>
+        <optionsvalue>present both eyes</optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies>
+      <ontologyitem>
+        <option>present left eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001289</mpid>
+        <mpterm>persistence of hyaloid vascular system</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present right eye</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001289</mpid>
+        <mpterm>persistence of hyaloid vascular system</mpterm>
+      </ontologyitem>
+      <ontologyitem>
+        <option>present both eyes</option>
+        <increment></increment>
+        <sex></sex>
+        <selectionoutcome>ABNORMAL</selectionoutcome>
+        <mpid>MP:0001289</mpid>
+        <mpterm>persistence of hyaloid vascular system</mpterm>
+      </ontologyitem>
+    </ontologies>
+  </parameter>
+  <parameter>
+    <parametername>Slit Lamp observation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Ophthalmoscope Observation</parametername>
+    <parametertype>Measured</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype>Categorical</graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Slit Lamp Equipment ID</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Slit Lamp Equipment Manufacturer</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Slit Lamp Equipment Model</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Ophthalmoscope Equipment ID</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Ophthalmoscope Equipment Manufacturer</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Ophthalmoscope Equipment Model</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Experimenter ID</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Scheimpflug Equipment ID</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Scheimpflug Equipment Manufacturer</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Scheimpflug Equipment Model</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>No</requiredforupload>
+    <requiredfordataanalysis>Yes</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Dilation Method</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>Topical Anesthetic</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+  <parameter>
+    <parametername>General Anesthetic</parametername>
+    <parametertype>MetaData</parametertype>
+    <incrementtype></incrementtype>
+    <incrementminimum></incrementminimum>
+    <unit></unit>
+    <datatype>Text</datatype>
+    <requiredforupload>Yes</requiredforupload>
+    <requiredfordataanalysis>No</requiredfordataanalysis>
+    <derivedformula></derivedformula>
+    <imagemedia>No</imagemedia>
+    <annotation>No</annotation>
+    <graphtype></graphtype>
+    <notes></notes>
+    <qcmin></qcmin>
+    <qcmax></qcmax>
+    <qcnotes></qcnotes>
+    <increments>
+      <incrementvalue></incrementvalue>
+    </increments>
+    <options>
+      <optionsgroup>
+        <optionsvalue></optionsvalue>
+        <optionsdescription></optionsdescription>
+      </optionsgroup>
+    </options>
+    <ontologies/>
+  </parameter>
+</procedure>

@@ -1,0 +1,3 @@
+~ dir
+C:\wamp\www\impress\application
+~ phpdoc --progressbar --sourcecode --title "IMPReSS Documentation" -t ../phpdoc -d controllers,helpers,libraries,models -i controllers/historic,helpers/historic,libraries/historic,models/historic

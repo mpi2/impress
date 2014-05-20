@@ -1,0 +1,3 @@
+~ dir
+C:\wamp\www\impress\application
+~ apigen --progressbar --title "IMPReSS Documentation" --destination ../apigen -s controllers -s libraries -s models -s helpers --skip-doc-path controllers/historic/* --skip-doc-path helpers/historic/* --skip-doc-path libraries/historic/* --skip-doc-path models/historic/*
