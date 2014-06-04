@@ -913,7 +913,7 @@ class Admin extends CI_Controller
         if ($proc->exists()) {
             $settings['upload_path'] = $this->config->item('pdfpath');
             $settings['allowed_types'] = 'pdf';
-            $settings['max_size'] = 5120; //5MB
+            $settings['max_size'] = $this->config->item('pdfmaxuploadsize');
             $settings['overwrite'] = FALSE;
             $settings['file_name'] = $proc->getItemKey() . '.pdf';
             $this->load->library('upload', $settings);

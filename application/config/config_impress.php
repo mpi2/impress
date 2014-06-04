@@ -18,8 +18,9 @@
  *
  */
 
-//the pdf folder path and the deletedpdfpath where all the SOP documents are stored
+//the pdf folder path, maxuploadsize and the deletedpdfpath where all the SOP documents are stored
 $config['pdfpath'] = APPPATH . 'views/pdfs/';
+$config['pdfmaxuploadsize'] = 5120; //in KB. Set to 5MB currently
 $config['deletedpdfpath'] = APPPATH . 'views/deletedpdfs/';
 
 //the folder path to the XML files that can be imported into IMPReSS
