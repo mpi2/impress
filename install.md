@@ -36,11 +36,13 @@ Installation
 * Install PHP
     + Ensure [php](http://www.php.net/manual/en/install.php) is available from the command line:
         - `php -v`
+
 ---
 
 * Install Git Client executable
     + Ensure [git](http://git-scm.com/book/en/Getting-Started-Installing-Git) is available on the command line:
         - `git --version`
+
 ---
 
 * Install Drupal
@@ -48,6 +50,7 @@ Installation
     2. Log in as the administrator
     3. Click People > Permissions > Roles
     4. Add the role "IMPReSS Admin" - This role is for regular editing of IMPReSS so you can give a "data wrangler" this role. Super users have the administrator role.
+
 ---
 
 * Install IMPReSS
@@ -65,6 +68,7 @@ Installation
             + $db['default']['password']
             + $db['default']['database']
             + $db['default']['dbcollat']
+
 ---
 
 * Make sure these directories writable:
@@ -76,12 +80,14 @@ Installation
     * ./assets/xmlfiles
     * ./images/userfiles/.thumbs
     * ./images/userfiles/images
+
 ---
 
 * Create a database in MySQL (e.g. impress) and run impress.sql into it. Run these SQL commands to prep the database:
     + `TRUNCATE TABLE logs;`
     + `TRUNCATE TABLE change_logs;`
     + `TRUNCATE TABLE not_in_beta;`
+
 ---
 
 * Install and update project dependencies using Composer. On the command line:
