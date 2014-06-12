@@ -102,10 +102,6 @@ echo form_open(null, array('id'=>'addeditform','name'=>'addeditform'));
     <td><input type="checkbox" title="<?php tooltip('3P_active') ?>" name="active" <?php echo set_value('active', (@$active) ? 'checked' : ''); if($mode=='I') echo 'checked'; ?>></td>
 </tr>
 <tr>
-    <td><label for="deprecated">Deprecated</label></td>
-    <td><input type="checkbox" title="<?php tooltip('deprecated') ?>" name="deprecated"<?php echo set_value('deprecated', (@$deprecated) ? ' checked' : ''); ?>></td>
-</tr>
-<tr>
     <td><label for="is_required">Required For Upload</label></td>
     <td><input type="checkbox" name="is_required" <?php echo set_value('is_required', (@$is_required) ? 'checked' : ''); ?><?php
 $ci->load->model('notinbetamodel');
@@ -128,6 +124,10 @@ if ($mode == 'I' && $this->config->item('version_triggering') && $ci->notinbetam
 </tr>
 <?php } ?>
 
+<tr>
+    <td><label for="deprecated">Deprecated</label></td>
+    <td><input type="checkbox" title="<?php tooltip('deprecated') ?>" name="deprecated"<?php echo set_value('deprecated', (@$deprecated) ? ' checked' : ''); ?>></td>
+</tr>
 <tr>
     <td><label for="is_annotation">Annotation</label></td>
     <td><input type="checkbox" title="<?php tooltip('annotation') ?>" name="is_annotation" <?php echo set_value('is_annotation', (@$is_annotation) ? 'checked' : ''); ?>></td>

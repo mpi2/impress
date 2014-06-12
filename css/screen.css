@@ -1253,7 +1253,7 @@ input[type="checkbox"]  { border: none; }
 input[type="submit"],
 input[type="text"],
 input[type="email"],
-input[type="password"]  { text-indent: 10px; padding-top: 0.3em; padding-bottom: 0.3em; }
+input[type="password"]  { /*text-indent: 10px; padding-top: 0.3em; padding-bottom: 0.3em; */}
 input:focus,textarea:focus { border-color: #ccc; }
 input.auto              { width: auto; }
 
