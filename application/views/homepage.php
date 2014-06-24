@@ -37,7 +37,7 @@ an agreed first version. Updates on the progress of this will be available throu
 </p>
 
 <p align="center">
-<img src="<?php echo site_url(); ?>images/pipeline_horizontal_vE8.gif" width="1020" height="814" style="margin:10px 0;" border="0" usemap="#meowmap" alt="The IMPC Pipeline" />
+<img src="<?php echo site_url(); ?>images/pipeline_horizontal_vE8.gif" width="1020" height="814" style="margin:10px 0; min-width:1020px !important" border="0" usemap="#meowmap" alt="The IMPC Pipeline" />
 <map name="meowmap" id="meowmap">
 <!-- #$-:Image map file created by GIMP Image Map plug-in -->
 <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
