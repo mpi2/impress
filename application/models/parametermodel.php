@@ -887,12 +887,12 @@ class ParameterModel extends CI_Model implements IUserIdCheckable, IPathwayCheck
     }
 
     /**
-    * @param int $procId The procedure table Id
+    * @param int $procId The procedure id
     * @return string new parameter key
     */
     public function getNewParameterKeyForProcedure($procId)
     {
-        $newKey = KeyUtil::generateNewParameterKey($procId);
+        $newKey = KeyUtil::generateNewParameterKey($procId, $this->_getLastParameter($procId), 1);
         if($newKey === false)
             return false;
         
@@ -901,6 +901,9 @@ class ParameterModel extends CI_Model implements IUserIdCheckable, IPathwayCheck
         if ( ! $unique) {
             $keyParts = KeyUtil::getParameterKeyParts($newKey);
             do{
+                if ((int)$keyParts[KeyUtil::PARAMETER] >= 999)
+                    $keyParts[KeyUtil::PARAMETER] = '000';
+                
                 $keyParts[KeyUtil::PARAMETER] = KeyUtil::getTriple( 1 + (int)$keyParts[KeyUtil::PARAMETER] );
                 $newKey = KeyUtil::joinParameterKeyParts($keyParts);
                 $unique = $this->_keyNeverBeenUsed($newKey);
@@ -909,6 +912,28 @@ class ParameterModel extends CI_Model implements IUserIdCheckable, IPathwayCheck
         }
         
         return $newKey;
+    }
+    
+    /**
+     * You get the id of the last parameter in a procedure based on the parameter
+     * number in it's key e.g. 4885 (IMPC_HIS_207_001), from passing 102
+     * (histopathology procedure), 7 (IMPC Pipeline) as arguments
+     * @param int $procId
+     * @return int Parameter id
+     */
+    private function _getLastParameter($procId)
+    {        
+        $keyParts = KeyUtil::getProcedureKeyParts($procId);
+        $prefix = $keyParts[KeyUtil::PREFIX] . '_' . $keyParts[KeyUtil::PROCKEY] . '_';
+        
+        $param = $this->db->query("
+                    SELECT parameter_id FROM parameter param
+                    WHERE parameter_key LIKE '$prefix%'
+                    ORDER BY CAST(SUBSTRING(parameter_key, -7, 3) AS SIGNED INTEGER) DESC
+                    LIMIT 1
+                ")->row_array();
+        
+        return (empty($param)) ? null : current($param);
     }
     
     /**
@@ -947,7 +972,7 @@ class ParameterModel extends CI_Model implements IUserIdCheckable, IPathwayCheck
         $newKey = '';
         $unique = TRUE;
         do{
-            $keyParts[KeyUtil::PARAMVERSION] = 1 + $keyParts[KeyUtil::PARAMVERSION];
+            $keyParts[KeyUtil::PARAMVERSION] = 1 + (int)$keyParts[KeyUtil::PARAMVERSION];
             $newKey = KeyUtil::joinParameterKeyParts($keyParts);
             $x = $this->_getByKey($newKey);
             $unique = empty($x);
