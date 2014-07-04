@@ -66,6 +66,8 @@ $route['protocol/(:num)/(:num)'] = $route['default_controller'] . '/displaySOP/$
 $route['protocol/([A-Z\-]{3,8}_[A-Z]{3}_\d{3})/([A-Z\-]{3,8}_\d{3})/(:any)'] = $route['default_controller'] . '/displaySOP/$1/$2/$3';
 $route['protocol/(:num)/(:num)/(:any)'] = $route['default_controller'] . '/displaySOP/$1/$2/$3';
 $route['admin/iu/model/(:any)'] = 'iu/model/$1';
+$route['ontology/impress-ontology'] = 'ontology/impress';
+$route['ontology/high-throughput-phenotyping'] = 'ontology/htp';
 /* /Deprecated */
 $route['404_override'] = '';
 

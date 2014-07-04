@@ -1,0 +1,956 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.mousephenotype.org/impress/ontology/high-throughput-phenotyping"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.mousephenotype.org/impress/ontology/high-throughput-phenotyping">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#abnormal-outcome-ontology-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite-procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data-parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased-outcome-ontology-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defined-value-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#derived-parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#experiment-procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased-outcome-ontology-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increment-index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incremental-data-parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mandatory-increment-index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metadata-parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metadata-procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multi-option-value-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multi-term-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ontology-term-annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optional-increment-index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ordered-pipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parameter-ontology-option"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parameter-option"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parameter-value-option"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simple-procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single-option-value-set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single-term-annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unordered-pipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variable-outcome-ontology-annotation-set"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsAnnotationPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsCompoundAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsOption"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsProcedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnnotatedWithSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#abnormal-outcome-ontology-annotation-set"/>
+        <Class IRI="#variable-outcome-ontology-annotation-set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composite-procedure"/>
+        <Class IRI="#procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data-parameter"/>
+        <Class IRI="#parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased-outcome-ontology-annotation-set"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#derived-parameter"/>
+        <Class IRI="#data-parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#experiment-procedure"/>
+        <Class IRI="#simple-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased-outcome-ontology-annotation-set"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incremental-data-parameter"/>
+        <Class IRI="#parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mandatory-increment-index"/>
+        <Class IRI="#increment-index"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metadata-parameter"/>
+        <Class IRI="#parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metadata-procedure"/>
+        <Class IRI="#simple-procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multi-option-value-set"/>
+        <Class IRI="#defined-value-set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multi-term-annotation-set"/>
+        <Class IRI="#ontology-term-annotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optional-increment-index"/>
+        <Class IRI="#increment-index"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ordered-pipeline"/>
+        <Class IRI="#pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parameter-ontology-option"/>
+        <Class IRI="#parameter-option"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parameter-value-option"/>
+        <Class IRI="#parameter-option"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simple-procedure"/>
+        <Class IRI="#procedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single-option-value-set"/>
+        <Class IRI="#defined-value-set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single-term-annotation"/>
+        <Class IRI="#ontology-term-annotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sop"/>
+        <Class IRI="#protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unordered-pipeline"/>
+        <Class IRI="#pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variable-outcome-ontology-annotation-set"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#data-parameter"/>
+        <Class IRI="#metadata-parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#decreased-outcome-ontology-annotation-set"/>
+        <Class IRI="#increased-outcome-ontology-annotation-set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#decreased-outcome-ontology-annotation-set"/>
+        <Class IRI="#variable-outcome-ontology-annotation-set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#defined-value-set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#increment-index"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#ontology-term-annotation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#parameter-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-ontology-annotation-set"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#increment-index"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#ontology-term-annotation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#parameter-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#defined-value-set"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increased-outcome-ontology-annotation-set"/>
+        <Class IRI="#variable-outcome-ontology-annotation-set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#ontology-term-annotation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#parameter-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#increment-index"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#incremental-data-parameter"/>
+        <Class IRI="#metadata-parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#mandatory-increment-index"/>
+        <Class IRI="#optional-increment-index"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#multi-option-value-set"/>
+        <Class IRI="#single-option-value-set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#multi-term-annotation-set"/>
+        <Class IRI="#single-term-annotation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ontology-term-annotation"/>
+        <Class IRI="#parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ontology-term-annotation"/>
+        <Class IRI="#parameter-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ontology-term-annotation"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ontology-term-annotation"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ontology-term-annotation"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ordered-pipeline"/>
+        <Class IRI="#unordered-pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter"/>
+        <Class IRI="#parameter-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter-ontology-option"/>
+        <Class IRI="#parameter-value-option"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter-option"/>
+        <Class IRI="#pipeline"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter-option"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#parameter-option"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#pipeline"/>
+        <Class IRI="#procedure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#pipeline"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#procedure"/>
+        <Class IRI="#protocol"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <Class IRI="#parameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsAnnotation"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsAnnotationPart"/>
+        <Class IRI="#multi-term-annotation-set"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsCompoundAnnotation"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsOption"/>
+        <Class IRI="#defined-value-set"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsParameter"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <Class IRI="#pipeline"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#protocol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+        <Class IRI="#parameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+        <Class IRI="#parameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnnotatedWithSet"/>
+        <Class IRI="#parameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performedInPipeline"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsAnnotation"/>
+        <Class IRI="#single-term-annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsAnnotationPart"/>
+        <Class IRI="#single-term-annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsCompoundAnnotation"/>
+        <Class IRI="#multi-term-annotation-set"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsOption"/>
+        <Class IRI="#parameter-option"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsParameter"/>
+        <Class IRI="#parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#describes"/>
+        <Class IRI="#procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+        <Class IRI="#defined-value-set"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+        <Class IRI="#increment-index"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnnotatedWithSet"/>
+        <Class IRI="#defined-ontology-annotation-set"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#protocol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedInPipeline"/>
+        <Class IRI="#pipeline"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#containsProcedure"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#describes"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#collectedInProcedure"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#containsProcedure"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#describes"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsParameter"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <ObjectProperty IRI="#describes"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#containsProcedure"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasDefinedValueSet"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasIncrementIndex"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <ObjectProperty IRI="#performedInPipeline"/>
+    </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#abnormal-outcome-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Abnormal Outcome Ontology Annotation Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#composite-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">A composite procedure is a container mainly holding parameters that were obtained from performing simple-procedures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#composite-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Composite Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#data-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">A data point collected in performing a procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#data-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">Data Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#decreased-outcome-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Decreased Outcome Ontology Annotation Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#defined-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameter values can be annotated with ontology terms defined in this set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#defined-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Defined Ontology Annotation Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#defined-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">A Defined Value Set is a limited list of values that can be submitted for a parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#defined-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Defined Value Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#derived-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">A derived parameter&apos;s value is derived from the values of other parameters. The value may be obtained through operations on values from other parameters e.g. (derived-parameter)Speed = (data-parameter)Distance / (data-parameter)Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#derived-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">Derived Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#experiment-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">A procedure where an experiment or test was performed and data was collected</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#experiment-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Experiment Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#increased-outcome-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Increased Outcome Ontology Annotation Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameters can be submitted in intervals and these intervals can be defined in indices. Increment Indices should be collected under a Defined Increment Index Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Increment Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#incremental-data-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">An Incremental Data Parameter is for collecting multiple datapoints of the same type. These increments can have defined Increment Indices or simply be repeat readings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#incremental-data-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">Incremental Data Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mandatory-increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Mandatory Increments are required indices that data must be submitted for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mandatory-increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Mandatory Increment Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#metadata-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">A data-point that represents information about the conditions of a procedure e.g. Room Temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metadata-parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">Metadata Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#metadata-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Metadata procedures contain parameters for storing information about how experiments are run and conditions across the whole pipeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metadata-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Metadata Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#multi-option-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">A Multi-Option Value Set holds a set of options where one or more options from the list can be submitted for a Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#multi-option-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Multi-Option Value Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#multi-term-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">An example of a Multi Term Ontology Annotation is the combination of [CHEBI:17234] glucose, and [PATO:0001162] increased concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#multi-term-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Multi-Term Annotation Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ontology-term-annotation</IRI>
+        <Literal datatypeIRI="&xsd;string">Ontology Terms can be used to annotate parameters with in order to qualitatively describe their outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ontology-term-annotation</IRI>
+        <Literal datatypeIRI="&xsd;string">Ontology Term Annotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#optional-increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Mandatory Increments are required indices that data must be submitted for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#optional-increment-index</IRI>
+        <Literal datatypeIRI="&xsd;string">Optional Increment Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ordered-pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">A pipeline that mainly contains procedures that should be performed in a specific sequence or order</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ordered-pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">Ordered Pipeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">A parameter represents a data point collected when performing a procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#parameter-ontology-option</IRI>
+        <Literal datatypeIRI="&xsd;string">An ontology option is an ontology term that is a valid value to supply for a Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-ontology-option</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameter Ontology Option</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#parameter-option</IRI>
+        <Literal datatypeIRI="&xsd;string">An option is one of the values that is valid to supply for a Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-option</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameter Option</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#parameter-value-option</IRI>
+        <Literal datatypeIRI="&xsd;string">An value option is a value that is valid to supply for a Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parameter-value-option</IRI>
+        <Literal datatypeIRI="&xsd;string">Parameter Value Option</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">A pipeline is a container for associated procedures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">Pipeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">A procedure is a container for the collection and grouping of related parameters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#protocol</IRI>
+        <Literal datatypeIRI="&xsd;string">A protocol is a generalized description of a procedure or experiment and may contain some general details of how it is performed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protocol</IRI>
+        <Literal datatypeIRI="&xsd;string">Protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#simple-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">A simple procedure is a container for parameters performed in one experiment or obtained in one session</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#simple-procedure</IRI>
+        <Literal datatypeIRI="&xsd;string">Simple Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#single-option-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">A Single Option Value Set holds a set of options where only one option from the list can be submitted for a Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single-option-value-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Single Option Value Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#single-term-annotation</IRI>
+        <Literal datatypeIRI="&xsd;string">An example of a Single Term Ontology Annotation is [MP:0001260] increased body weight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single-term-annotation</IRI>
+        <Literal datatypeIRI="&xsd;string">Single Term Annotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sop</IRI>
+        <Literal datatypeIRI="&xsd;string">A detailed description of an experiment and how it should be performed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sop</IRI>
+        <Literal datatypeIRI="&xsd;string">Standard Operating Procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#unordered-pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">A pipeline that mainly contains procedures that do not need to be performed in any particular sequence or order</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unordered-pipeline</IRI>
+        <Literal datatypeIRI="&xsd;string">Unordered Pipeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variable-outcome-ontology-annotation-set</IRI>
+        <Literal datatypeIRI="&xsd;string">Variable Outcome Ontology Annotation Set</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

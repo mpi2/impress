@@ -35,6 +35,11 @@ $config['mpfilerefreshinterval'] = 60*60*24*7; //download new file at least ever
 //list is huge, bigger than ontologyoptionlistlimit, we display a link to a page
 $config['ontologyoptionlistlimit'] = 50;
 
+//the impress_owl settings
+$config['impressowlexecutable'] = APPPATH . 'third_party/impress_owl/impressowl.jar';
+$config['impressowlfilepath'] = APPPATH . 'cache/impressontology.xml';
+$config['htpontologyfilepath'] = APPPATH . 'third_party/impress_owl/high-throughput-phenotyping.owl';
+
 //identify what server impress is running on and specify server profile label
 if (false !== strpos(@$_SERVER['HTTP_HOST'], 'localhost')) {
     $config['server'] = 'internal';
