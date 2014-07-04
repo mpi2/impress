@@ -1003,4 +1003,315 @@ class QuickWrangler extends CI_Controller
         
         echo '<br>Done!';
     }
+    
+    /**
+     * Insert initial load of Mouse Welfare Terms into the specified Ontology Group
+     */
+    public function insertMouseWelfareTermsIntoGroup() {
+        $mwTerms = array(
+            array('MP:0003849' => 'greasy coat'),
+            array('MP:0000414' => 'alopecia'),
+            array('MP:0013034' => 'entire body wounds'),
+            array('MP:0013035' => 'entire body open abrasion'),
+            array('MP:0013036' => 'entire body open avulsion'),
+            array('MP:0013037' => 'entire body open incision'),
+            array('MP:0013038' => 'entire body open laceration'),
+            array('MP:0013039' => 'entire body open puncture'),
+            array('MP:0013040' => 'entire body closed contusion'),
+            array('MP:0001209' => 'spontaneous skin ulceration'),
+            array('MP:0013118' => 'swellings'),
+            array('MP:0003653' => 'decreased skin turgor'),
+            array('MP:0001492' => 'piloerection'),
+            array('MP:0001505' => 'hunched posture'),
+            array('MP:0001261' => 'obese'),
+            array('MP:0001263' => 'weight loss'),
+            array('MP:0005455' => 'increased susceptibility to weight gain'),
+            array('MP:0013138' => 'thin body'),
+            array('MP:0001257' => 'increased body length'),
+            array('MP:0001258' => 'decreased body length'),
+            array('MP:0001785' => 'edema'),
+            array('MP:0001402' => 'hypoactivity'),
+            array('MP:0001402' => 'hypoactivity'),
+            array('MP:0002822' => 'catalepsy'),
+            array('MP:0013139' => 'moribund'),
+            array('MP:0001399' => 'hyperactivity'),
+            array('MP:0000436' => 'abnormal head movements'),
+            array('MP:0001394' => 'circling'),
+            array('MP:0001529' => 'abnormal vocalization'),
+            array('MP:0001406' => 'abnormal gait'),
+            array('MP:0000745' => 'tremors'),
+            array('MP:0001516' => 'abnormal motor coordination/ balance'),
+            array('MP:0000753' => 'paralysis'),
+            array('MP:0002064' => 'seizures'),
+            array('MP:0001412' => 'excessive scratching'),
+            array('MP:0002066' => 'abnormal motor capabilities/coordination/movement'),
+            array('MP:0001441' => 'increased grooming behavior'),
+            array('MP:0001353' => 'increased aggression towards mice'),
+            array('MP:0001360' => 'abnormal social investigation'),
+            array('MP:0013141' => 'sexually aggressive behaviour'),
+            array('MP:0002808' => 'abnormal barbering behavior'),
+            array('MP:0005036' => 'diarrhea'),
+            array('MP:0005037' => 'mucous diarrhea'),
+            array('MP:0003293' => 'rectal hemorrhage'),
+            array('MP:0000493' => 'rectal prolapse'),
+            array('MP:0013142' => 'anal soreness'),
+            array('MP:0005035' => 'perianal ulceration'),
+            array('MP:0013111' => 'greasy abdomen coat'),
+            array('MP:0013115' => 'focal hair loss in abdominal region'),
+            array('MP:0013048' => 'abdomen wound'),
+            array('MP:0013049' => 'abdomen open abrasion'),
+            array('MP:0013050' => 'abdomen open avulsion'),
+            array('MP:0013051' => 'abdomen open incision'),
+            array('MP:0013052' => 'abdomen open laceration'),
+            array('MP:0013053' => 'abdomen open puncture'),
+            array('MP:0013054' => 'abdomen closed contusion'),
+            array('MP:0013119' => 'abdomen swellings'),
+            array('MP:0003288' => 'intestinal edema'),
+            array('MP:0001270' => 'distended abdomen'),
+            array('MP:0013136' => 'genital discharge'),
+            array('MP:0004245' => 'genital hemorrhage'),
+            array('MP:0013055' => 'genital wound'),
+            array('MP:0013056' => 'genital open abrasion'),
+            array('MP:0013057' => 'genital open avulsion'),
+            array('MP:0013058' => 'genital open incision'),
+            array('MP:0013059' => 'genital open laceration'),
+            array('MP:0013060' => 'genital open puncture'),
+            array('MP:0013061' => 'genital closed contusion'),
+            array('MP:0002210' => 'abnormal sex determination'),
+            array('MP:0002213' => 'true hermaphroditism'),
+            array('MP:0013120' => 'urogenital swellings'),
+            array('MP:0013121' => 'testicular swellings'),
+            array('MP:0003554' => 'phimosis'),
+            array('MP:0009200' => 'enlarged external male genitalia'),
+            array('MP:0013143' => 'penis inflammation'),
+            array('MP:0009199' => 'abnormal external male genitalia morphology'),
+            array('MP:0005577' => 'uterus prolapse'),
+            array('MP:0003533' => 'bifid vagina'),
+            array('MP:0008981' => 'enlarged vagina'),
+            array('MP:0003541' => 'vaginal inflammation'),
+            array('MP:0001139' => 'abnormal vagina morphology'),
+            array('MP:0003717' => 'pallor'),
+            array('MP:0003454' => 'erythroderma'),
+            array('MP:0001575' => 'cyanosis'),
+            array('MP:0001651' => 'necrosis'),
+            array('MP:0000611' => 'jaundice'),
+            array('MP:0013069' => 'limb wound'),
+            array('MP:0013070' => 'limb open abrasion'),
+            array('MP:0013071' => 'limb open avulsion'),
+            array('MP:0013072' => 'limb open incision'),
+            array('MP:0013073' => 'limb open laceration'),
+            array('MP:0013074' => 'limb open puncture'),
+            array('MP:0013075' => 'limb closed contusion'),
+            array('MP:0002109' => 'abnormal limb morphology'),
+            array('MP:0000549' => 'absent limbs'),
+            array('MP:0009434' => 'paraparesis'),
+            array('MP:0013147' => 'limb paralysis'),
+            array('MP:0013076' => 'autopod wound'),
+            array('MP:0013077' => 'autopod open abrasion'),
+            array('MP:0013078' => 'autopod open avulsion'),
+            array('MP:0013079' => 'autopod open incision'),
+            array('MP:0013080' => 'autopod open laceration'),
+            array('MP:0013081' => 'autopod open puncture'),
+            array('MP:0013082' => 'autopod closed contusion'),
+            array('MP:0000572' => 'abnormal autopod morphology'),
+            array('MP:0000562' => 'polydactyly'),
+            array('MP:0000564' => 'syndactyly'),
+            array('MP:0000565' => 'oligodactyly'),
+            array('MP:0002544' => 'brachydactyly'),
+            array('MP:0013149' => 'macrodactyly'),
+            array('MP:0008494' => 'absence of all nails'),
+            array('MP:0001633' => 'poor circulation'),
+            array('MP:0002111' => 'abnormal tail morphology'),
+            array('MP:0000585' => 'kinked tail'),
+            array('MP:0003051' => 'curly tail'),
+            array('MP:0003456' => 'absent tail'),
+            array('MP:0000592' => 'short tail'),
+            array('MP:0002758' => 'long tail'),
+            array('MP:0013083' => 'tail wound'),
+            array('MP:0013084' => 'tail open abrasion'),
+            array('MP:0013085' => 'tail open avulsion'),
+            array('MP:0013086' => 'tail open incision'),
+            array('MP:0013087' => 'tail open laceration'),
+            array('MP:0013088' => 'tail open puncture'),
+            array('MP:0013089' => 'tail closed contusion'),
+            array('MP:0013113' => 'greasy tail'),
+            array('MP:0013122' => 'tail swellings'),
+            array('MP:0013135' => 'poor circulation in tail'),
+            array('MP:0001198' => 'tight skin'),
+            array('MP:0013114' => 'greasy head/neck'),
+            array('MP:0013116' => 'focal hair loss in head/neck region'),
+            array('MP:0013090' => 'head or neck wound'),
+            array('MP:0013091' => 'head or neck open abrasion'),
+            array('MP:0013092' => 'head or neck open avulsion'),
+            array('MP:0013093' => 'head or neck open incision'),
+            array('MP:0013094' => 'head or neck open laceration'),
+            array('MP:0013095' => 'head or neck open puncture'),
+            array('MP:0013096' => 'head or neck closed contusion'),
+            array('MP:0013123' => 'head/neck swellings'),
+            array('MP:0013150' => 'head/neck piloerection'),
+            array('MP:0005579' => 'absent outer ear'),
+            array('MP:0002177' => 'abnormal outer ear morphology'),
+            array('MP:0000018' => 'small ears'),
+            array('MP:0000017' => 'big ears'),
+            array('MP:0000022' => 'abnormal ear shape'),
+            array('MP:0000023' => 'abnormal ear distance/ position'),
+            array('MP:0001849' => 'ear inflammation'),
+            array('MP:0013171' => 'ear hemorrhage'),
+            array('MP:0013097' => 'ear wound'),
+            array('MP:0013098' => 'ear open abrasion'),
+            array('MP:0013099' => 'ear open avulsion'),
+            array('MP:0013100' => 'ear open incision'),
+            array('MP:0013101' => 'ear open laceration'),
+            array('MP:0013102' => 'ear open puncture'),
+            array('MP:0013103' => 'ear closed contusion'),
+            array('MP:0001293' => 'anophthalmia'),
+            array('MP:0006251' => 'eyelid apraxia'),
+            array('MP:0002092' => 'abnormal eye morphology'),
+            array('MP:0001297' => 'microphthalmia'),
+            array('MP:0001296' => 'macrophthalmia'),
+            array('MP:0002092' => 'abnormal eye morphology'),
+            array('MP:0001299' => 'abnormal eye distance/ position'),
+            array('MP:0001304' => 'cataracts'),
+            array('MP:0013145' => 'eye discharge'),
+            array('MP:0006203' => 'eye hemorrhage'),
+            array('MP:0013146' => 'eye lesions'),
+            array('MP:0001851' => 'eye inflammation'),
+            array('MP:0013170' => 'eye swellings'),
+            array('MP:0005191' => 'head tilt'),
+            array('MP:0000432' => 'abnormal head morphology'),
+            array('MP:0000440' => 'domed skull'),
+            array('MP:0001891' => 'hydroencephaly'),
+            array('MP:0002098' => 'abnormal vibrissa morphology'),
+            array('MP:0001284' => 'absent vibrissae'),
+            array('MP:0001282' => 'short vibrissae'),
+            array('MP:0013124' => 'mouth swellings'),
+            array('MP:0005170' => 'cleft lip'),
+            array('MP:0002100' => 'abnormal tooth morphology'),
+            array('MP:0000120' => 'malocclusion'),
+            array('MP:0002100' => 'abnormal tooth morphology'),
+            array('MP:0010096' => 'abnormal incisor color'),
+            array('MP:0000454' => 'abnormal jaw morphology'),
+            array('MP:0000124' => 'absent teeth'),
+            array('MP:0013132' => 'pale gums'),
+            array('MP:0013131' => 'pale lips'),
+            array('MP:0001867' => 'rhinitis'),
+            array('MP:0013127' => 'epistaxis'),
+            array('MP:0013104' => 'nose wound'),
+            array('MP:0013105' => 'nose open abrasion'),
+            array('MP:0013106' => 'nose open avulsion'),
+            array('MP:0013107' => 'nose open incision'),
+            array('MP:0013108' => 'nose open laceration'),
+            array('MP:0013109' => 'nose open puncture'),
+            array('MP:0013110' => 'nose closed contusion'),
+            array('MP:0000445' => 'short snout'),
+            array('MP:0013112' => 'greasy thorax coat'),
+            array('MP:0013117' => 'focal hair loss in thorax region'),
+            array('MP:0013041' => 'thorax wound'),
+            array('MP:0013042' => 'thorax open abrasion'),
+            array('MP:0013043' => 'thorax open avulsion'),
+            array('MP:0013044' => 'thorax open incision'),
+            array('MP:0013045' => 'thorax open laceration'),
+            array('MP:0013046' => 'thorax open puncture'),
+            array('MP:0013047' => 'thorax closed contusion'),
+            array('MP:0013125' => 'thorax swellings'),
+            array('MP:0005573' => 'increased pulmonary respiratory rate'),
+            array('MP:0005574' => 'decreased pulmonary respiratory rate'),
+            array('MP:0001954' => 'respiratory distress'),
+            array('MP:0001954' => 'respiratory distress'),
+            array('MP:0009733' => 'absent nipple'),
+            array('MP:0013137' => 'nipple discharge'),
+            array('MP:0013128' => 'nipple hemorrhage'),
+            array('MP:0006078' => 'abnormal nipple morphology'),
+            array('MP:0001883' => 'mammary adenocarcinoma'),
+            array('MP:0013062' => 'teat wound'),
+            array('MP:0013063' => 'teat open abrasion'),
+            array('MP:0013064' => 'teat open avulsion'),
+            array('MP:0013065' => 'teat open incision'),
+            array('MP:0013066' => 'teat open laceration'),
+            array('MP:0013067' => 'teat open puncture'),
+            array('MP:0013068' => 'teat closed contusion'),
+            array('MP:0012010' => 'parturition failure'),
+            array('MP:0004514' => 'dystocia'),
+            array('MP:0004898' => 'uterine hemorrhage'),
+            array('MP:0012008' => 'delayed parturition'),
+            array('MP:0012009' => 'early parturition'),
+            array('MP:0013172' => 'miscarriage'),
+            array('MP:0004898' => 'uterine hemorrhage'),
+            array('MP:0011085' => 'complete postnatal lethality'),
+            array('MP:0011086' => 'partial postnatal lethality'),
+            array('MP:0001385' => 'pup cannibalization'),
+            array('MP:0001265' => 'decreased body size'),
+            array('MP:0013148' => 'mastitis'),
+            array('MP:0001384' => 'abnormal pup retrieval')
+        );
+        
+        //remove duplicates
+        $flatArr = array();
+        foreach ($mwTerms as $k => $hash) {
+            foreach ($hash as $key => $value) {
+                $flatArr[] = "$key,$value";
+            }
+        }
+        $flatArr = array_unique($flatArr);
+        
+        $mwTerms = array();
+        foreach ($flatArr as $value) {
+            $t = explode(',', $value);
+            $mwTerms[] = array($t[0] => $t[1]);
+        }
+        
+        //
+        // These 4 variables need to be set manually:
+        //
+        
+        //@todo get the correct ontology group id
+        $groupId = 63;
+        //@todo get the correct parameter id
+        $parameterId = 5337;
+        //@todo get the correct procedure id
+        $procedureId = 197;
+        //pipeline id - IMPC Pipeline
+        $pipelineId = 7;
+        
+        //check the group has not already been filled with terms
+        $group = new OntologyGroup($groupId);
+        $ontologyOptions = $group->getOntologyOptions();
+        if ( ! empty($ontologyOptions)) {
+            die('Process halted: The Mouse Welfare Terms ontology group already contains terms.');
+        }
+        unset($ontologyOptions, $group);
+        
+        $defaultArr = array(
+            'param_ontologyoption_id' => null,
+            'ontology_term' => '', //to be set below
+            'ontology_id' => '', //to be set below
+            'is_default' => 0,
+            'is_active' => 1,
+            'is_collapsed' => 0,
+            'pipeline_id' => $pipelineId,
+            'procedure_id' => $procedureId,
+            'parameter_id' => $parameterId,
+            'ontology_group_id' => $groupId
+        );
+        
+        $this->load->model('paramontologyoptionmodel');
+        
+        $count = 0;
+        
+        foreach ($mwTerms as $mwTerm) {
+            foreach ($mwTerm as $id => $term) {
+                $newTerm = $defaultArr;
+                $newTerm['ontology_id'] = $id;
+                $newTerm['ontology_term'] = $term;
+                $inserted = $this->paramontologyoptionmodel->insert($newTerm);
+                if ( ! $inserted) {
+                    die('Process aborted: An error occured while trying to insert ' . print_r($newTerm, true));
+                }
+                echo "Inserted $id - $term<br>\n";
+                $count++;
+            }
+        }
+        
+        echo "\n<br>Successfully inserted $count ontology terms into the the Mouse Welfard Terms Ontology Group.";
+    }
 }
