@@ -623,6 +623,7 @@ class ParameterModel extends CI_Model implements IUserIdCheckable, IPathwayCheck
             $proc['nvuseoldpipelinekey'] = $useOldPipKey;
             $proc[ProcedureModel::PRIMARY_KEY] = $oldProcedureId;
             $proc['delete_parameter_id'] = (isset($arr['delete_parameter_id'])) ? $arr['delete_parameter_id'] : $oldParameterId;
+            $proc['softlinkintopipelines'] = (isset($arr['softlinkintopipelines'])) ? $arr['softlinkintopipelines'] : array();
             $newProcedureId = $this->proceduremodel->createNewVersion($proc);
             if($newProcedureId === false){
                 ImpressLogger::log(ImpressLogger::ERROR, 'An error occurred in the process of creating a new Procedure version via the creation of a new Parameter - passed in variables: ' . print_r($arr, TRUE));

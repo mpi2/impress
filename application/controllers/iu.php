@@ -569,6 +569,7 @@ class IU extends CI_Controller
                     'nvforkprocedure' => (isset($_POST['nvforkprocedure']) && $this->input->post('nvforkprocedure')) ? 1 : 0,
                     'nvuseoldpipelinekey' => (isset($_POST['nvuseoldpipelinekey']) && $this->input->post('nvuseoldpipelinekey')) ? 1 : 0,
                     'nvrelationdescription' => (empty($_POST['nvrelationdescription'])) ? NULL : $this->input->post('nvrelationdescription'),
+                    'softlinkintopipelines' => $this->input->post('softlinkintopipelines'),
                     'nvoption_relationdescription' => (empty($_POST['nvoption_relationdescription'])) ? NULL : $this->input->post('nvoption_relationdescription')
                 );
                 break;

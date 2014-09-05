@@ -353,10 +353,10 @@ class ParamOptionModel extends CI_Model implements IUserIdCheckable, IPathwayChe
     {
         $this->load->helper('array_keys_exist');
         $requiredFields = array(
-                self::PRIMARY_KEY, 'pipeline_id', 'procedure_id',
-                'parameter_id', 'nvpipeline', 'nvprocedure',
-                'nvrelation', 'nvforkprocedure', 'nvrelationdescription',
-                'nvuseoldpipelinekey'
+            self::PRIMARY_KEY, 'pipeline_id', 'procedure_id',
+            'parameter_id', 'nvpipeline', 'nvprocedure',
+            'nvrelation', 'nvforkprocedure', 'nvrelationdescription',
+            'nvuseoldpipelinekey'
         );
         if( ! array_keys_exist($arr, $requiredFields))
             return false;
@@ -364,22 +364,18 @@ class ParamOptionModel extends CI_Model implements IUserIdCheckable, IPathwayChe
         $parameter = $this->parametermodel->getById($oldParameterId);
         if(empty($parameter))
             return false;
+        
         //make a new version of the parameter/procedure and delete old items
         $parameter['delete_option_id'] = $arr[self::PRIMARY_KEY];
-        $parameter['nvdeleteolditem'] = true;
+        $parameter['nvdeleteolditem'] = (isset($arr['nvdeleteolditem']) && $arr['nvdeleteolditem']) ? true : false;
         $parameter['delete_parameter_id'] = $oldParameterId;
-        foreach ($requiredFields as $field)
-                $parameter[$field] = $arr[$field];
+        $parameter['softlinkintopipelines'] = (isset($arr['softlinkintopipelines'])) ? $arr['softlinkintopipelines'] : array();
+        foreach ($requiredFields as $field) {
+            $parameter[$field] = $arr[$field];
+        }
         $newParameterId = $this->parametermodel->createNewVersion($parameter);
         if($newParameterId === false)
             return false;
-			
-        //delete the option from the new parameter
-        // $this->load->model('parameterhasoptionsmodel');
-        // $ret = (bool) $this->parameterhasoptionsmodel->delete($newParameterId, $arr[self::PRIMARY_KEY]);
-
-        //update the status of the options flag on the parameter
-        // $this->_updateParameterOptionFlagForParameter($newParameterId);
 
         $this->load->model('originalpathwaysmodel');
         $origin = current($this->originalpathwaysmodel->getPathwaysByParameter($newParameterId));

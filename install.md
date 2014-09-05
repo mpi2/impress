@@ -90,7 +90,7 @@ Installation
 
 ---
 
-* Install and update project dependencies using Composer. On the command line:
+* Install and update project dependencies using [Composer](https://getcomposer.org/). First change to the installation directory and download Composer to there, then on the command line:
     + `cd /var/usr/html`    (or wherever you installed IMPReSS)
     + `php composer.phar self-update`
     + `php composer.phar update`
